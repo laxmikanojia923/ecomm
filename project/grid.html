@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: grid;
+            grid-template-columns: auto 30px auto;
+           grid-template-rows: auto 30px auto;
+            grid-row-gap: 3px;
+            grid-column-gap: 2px;
+           
+        }
+        .cont>div{
+            background-color: blueviolet;
+           height: 100px;
+           display: flex;
+          
+           flex: auto;
+           width: 150px;
+           /* padding: 10px; */
+            text-align: center;
+            font-size: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+        <div>box4</div>
+        <div>box5</div>
+        <div>box6</div>
+        <div>box7</div>
+    </div>
+</body>
+</html>
